@@ -1,1 +1,16 @@
-
+{
+  "name": "web-bostion-service",
+  "version": "1.0.0",
+  "description": "خادم الاستضافة الذاتية و لوحة التحكم و مؤشر ال 5 دقائق البوتات اعضاء",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "archiver": "^6.0.2",
+    "adm-zip": "^0.5.10"
+  },
+  "author": "Hosting Expert",
+  "license": "ISC"
+}
